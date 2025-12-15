@@ -1,31 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>studygrouphub - Educatinol Platform</title>
-      <!-- CSS & ICON -->
-    <link rel="stylesheet" href="">
-    <link rel="ICON" href="IMG/LOGO.jpg">
-      <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-      <!-- Font Awesome -->
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <!-----JAVA-SCRIPT-->
-    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"> </script>
-    <script defer src="script.js"></script>
+<head>
+  <meta charset="UTF-8">
+  <title>StudyGroupHub | Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+<!-- ================= HEADER / NAVBAR ================= -->
+<header class="navbar">
+  <div class="logo">
+    <img src="./IMG/LOGO.jpg" alt="logo">
+    <span>StudyGroupHub</span>
+  </div>
 
-  </head>
-  <body  class="bg-gray-100">
-    <!--------NAVIGATION----------->
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="FRONTAND/ABOUT/index.html">About</a>
+    <a href="FRONTAND/COURSES/index.html">Courses</a>
+    <a href="FRONTAND/DIPLOMA/diploma.html">Diploma</a>
+    <a href="FRONTAND/BTECH/index.html">B.Tech</a>
+    <a href="FRONTAND/CLASS7TH-8TH/index.html">Class 7–8</a>
+    <a href="FRONTAND/DEVLOPER-TEAM/developer.html">Developers</a>
+    <a href="FRONTAND/CONTACT/contact.html">Contact</a>
+    <a href="FRONTAND/FEEDBACK/feedback.html">Feedback</a>
+    <a href="FRONTAND/LOGIN/loging.html" class="btn-nav">Login</a>
+     <a href="FRONTAND/LOGIN/signup.html" class="btn-nav">signup</a>
     
+  </nav>
+</header>
 
-    <h1>hello</h1>
-    <h2>study group</h2>
-    
+<!-- ================= HERO SECTION ================= -->
+<section class="hero">
+  <h1>Smart Learning Starts Here 📚</h1>
+  <p>Notes • PDFs • Dashboard • Admin Panel • Android App</p>
 
-   
-    
-  </body>
+  <div class="hero-buttons">
+    <a href="frontand/LOGIN/signup.html" class="btn primary">Get Started</a>
+    <a href="frontand/Student dashboard/dashboard.html" class="btn outline">Student Dashboard</a>
+  </div>
+</section>
+
+<!-- ================= MIDDLE SECTION ================= -->
+<section class="middle">
+  <h2>Explore StudyGroupHub</h2>
+
+  <div class="card-grid">
+
+    <a href="frontand/DIPLOMA/diploma.html" class="card">
+      🎓 <h3>Diploma</h3>
+      <p>Branch-wise diploma notes</p>
+    </a>
+
+    <a href="frontand/BTECH/index.html" class="card">
+      🏫 <h3>B.Tech</h3>
+      <p>Engineering notes & PDFs</p>
+    </a>
+
+    <a href="FRONTAND/CLASS7TH-8TH/index.html" class="card">
+      📘 <h3>Class 7–8</h3>
+      <p>School level smart notes</p>
+    </a>
+
+    <a href="frontand/COURSES/index.html" class="card">
+      📚 <h3>Courses</h3>
+      <p>All available study courses</p>
+    </a>
+
+    <a href="frontand/ADMIN-TEAM/admin.html" class="card">
+      👨‍💼 <h3>Admin Panel</h3>
+      <p>Manage notes & students</p>
+    </a>
+
+    <a href="frontand/APK/index.html" class="card">
+      📱 <h3>Android App</h3>
+      <p>Download APK version</p>
+    </a>
+
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <p>© 2025 StudyGroupHub | All Rights Reserved</p>
+  <p>Designed for Students ❤️</p>
+</footer>
+
+<script src="frontand/JAVA-SCRIPT/script.js"></script>
+</body>
 </html>

@@ -69,3 +69,7 @@ window.logout = async () => {
 
 loadNotes();
 loadStudents();
+const snap = await getDocs(collection(db, "feedback"));
+snap.forEach(doc => {
+  console.log(doc.data());
+});
