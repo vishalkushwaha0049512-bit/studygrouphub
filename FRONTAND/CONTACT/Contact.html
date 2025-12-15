@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact | Student Notes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="header">
+  <h1>📚 Student Notes</h1>
+  <nav>
+    <a href="home.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="login.html">Login</a>
+  </nav>
+</header>
+
+<!-- CONTACT SECTION -->
+<section class="contact">
+  <h2>Contact Us</h2>
+  <p>If you have any questions or need help, feel free to contact us 😊</p>
+
+  <div class="contact-wrapper">
+
+    <!-- Contact Info -->
+    <div class="contact-info">
+      <h3>📍 Our Details</h3>
+      <p>📧 Email: support@studentnotes.com</p>
+      <p>📞 Phone: +91 9XXXXXXXXX</p>
+      <p>🏫 For School & College Students</p>
+    </div>
+
+    <!-- Contact Form -->
+    <form class="contact-form" onsubmit="sendMessage(event)">
+      <input type="text" id="cname" placeholder="Your Name" required>
+      <input type="email" id="cemail" placeholder="Your Email" required>
+      <textarea id="cmessage" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <p>© 2025 Student Notes | We are here to help</p>
+</footer>
+
+<script>
+function sendMessage(e) {
+  e.preventDefault();
+  alert("Message sent successfully! 😊");
+  document.querySelector(".contact-form").reset();
+}
+</script>
+
+</body>
+</html>
