@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Admin Team Panel</title>
+  <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+
+<header class="admin-header">
+  <h2>👨‍💼 Admin Team Panel</h2>
+  <button onclick="logout()">Logout</button>
+</header>
+
+<div class="admin-container">
+
+  <!-- NOTES SECTION -->
+  <div class="admin-card">
+    <h3>📚 All Notes</h3>
+    <ul id="notesList"></ul>
+  </div>
+
+  <!-- STUDENTS SECTION -->
+  <div class="admin-card">
+    <h3>👨‍🎓 Registered Students</h3>
+    <ul id="studentsList"></ul>
+  </div>
+
+</div>
+
+<script type="module" src="admin.js"></script>
+</body>
+</html>
