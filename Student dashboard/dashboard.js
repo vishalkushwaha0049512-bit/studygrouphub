@@ -1,4 +1,3 @@
-
 let notes = JSON.parse(localStorage.getItem("notes")) || [];
 
 function displayNotes() {
